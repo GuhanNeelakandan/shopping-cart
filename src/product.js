@@ -10,7 +10,7 @@ function Products(props) {
                 {/* product details */}
                 <div class="card-body p-4">
                     <div class="text-center">
-                        <h5 class="fw-bolder">{props.productData.name}</h5>
+                        <h5 class="fw-bolder">{props.productData.title}</h5>
                         {/* rating star */}
                         {props.productData.rating ? <div class="d-flex justify-content-center small text-warning">
                             <div><i className="fa fa-solid fa-star"></i></div>

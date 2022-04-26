@@ -7,7 +7,7 @@ function CartItems(props) {
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                     <div class="ms-2 me-auto">
                         {/* item name */}
-                        <div class="fw-bold">{props.item.name}</div>
+                        <div class="fw-bold">{props.item.title}</div>
                         {/* item price */}
                         $ {props.item.price}
                     </div>
